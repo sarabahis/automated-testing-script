@@ -1,0 +1,23 @@
+ # GNU nano2.0.6                                           File: inputLp                                                                                          
+#!/bin/bash
+
+for j in ./testcases/*
+do
+
+for z in $j/*
+do
+
+for i in  $z/exp_output/*
+do
+echo -e "\n \n \n \n ================ THIS IS TEST CASE ${i:${#i}-9} ================ \n \n " >> "failureLog.txt"
+
+diff -b -B -w $z/test_runs/${i:${#i}-9}  $i >> "failureLog.txt"
+
+
+done
+
+done
+
+done
+
+
