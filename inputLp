@@ -1,0 +1,22 @@
+#!/bin/bash
+
+for j in ./testcases/*
+do
+echo -e " \n" 
+
+for z in $j/*
+do
+echo -e "\n \n"
+
+for i in  $z/input/*
+do
+echo $i
+java -jar prototype.jar <$i >& $z/test_runs/${i:${#i}-9}
+
+echo ${i:${#i}-9}
+echo -e "DONE WITH $i \n \n \n"
+done
+
+done
+
+done
