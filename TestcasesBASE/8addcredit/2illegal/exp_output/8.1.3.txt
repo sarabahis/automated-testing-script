@@ -1,0 +1,22 @@
+Please enter your username to login: 
+Enter transaction code: 
+||01 to Create new user (Privileged trans.) 
+||02 to Delete new user (Privileged trans.) 
+||03 to Sell tickets 
+||04 to Buy tickets 
+||05 to Refund money (Privileged trans.) 
+||06 to Add credit to a user 
+||00 to Logout and exit program
+Input the name of the recipient:
+Input the amount of credit:
+Transaction can't be completed.
+Enter transaction code: 
+||01 to Create new user (Privileged trans.) 
+||02 to Delete new user (Privileged trans.) 
+||03 to Sell tickets 
+||04 to Buy tickets 
+||05 to Refund money (Privileged trans.) 
+||06 to Add credit to a user 
+||00 to Logout and exit program
+The transaction's file has been updated
+Program is exiting. Goodbye.

@@ -1,0 +1,32 @@
+Please enter your username to login: 
+Enter transaction code: 
+||01 to Create new user (Privileged trans.) 
+||02 to Delete new user (Privileged trans.) 
+||03 to Sell tickets 
+||04 to Buy tickets 
+||05 to Refund money (Privileged trans.) 
+||06 to Add credit to a user 
+||00 to Logout and exit program
+Input the name of the event you want to buy: 
+Please enter a string
+Input the name of the event you want to buy: 
+Input the quantity you want: 
+The total of your purchase= 100.0
+Continue? yes or no: 
+The user has been deleted
+The users' file has been updated
+The user has been deleted
+The users' file has been updated
+The ticket has been deleted
+The ticket's file has been updated
+The transaction's file has been updated
+Enter transaction code: 
+||01 to Create new user (Privileged trans.) 
+||02 to Delete new user (Privileged trans.) 
+||03 to Sell tickets 
+||04 to Buy tickets 
+||05 to Refund money (Privileged trans.) 
+||06 to Add credit to a user 
+||00 to Logout and exit program
+The transaction's file has been updated
+Program is exiting. Goodbye.
